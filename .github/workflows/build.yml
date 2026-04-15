@@ -34,9 +34,10 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gradle-
           
-    - name: Build Debug APK
-      run: ./gradlew assembleDebug
-      working-directory: .
+    - name: Build with Gradle
+      uses: gradle/gradle-build-action@v2
+      with:
+        args: assembleDebug
       
     - name: Upload APK
       uses: actions/upload-artifact@v4
