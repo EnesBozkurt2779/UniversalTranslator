@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Evrensel Çevirmen</string>
+    
+    <!-- Navigation -->
+    <string name="nav_text">Metin</string>
+    <string name="nav_camera">Kamera</string>
+    <string name="nav_dialog">Konuşma</string>
+    <string name="nav_settings">Ayarlar</string>
+    
+    <!-- Text Translation -->
+    <string name="hint_enter_text">Çevirmek istediğiniz metni girin...</string>
+    <string name="btn_translate">Çevir</string>
+    <string name="btn_swap_languages">Dilleri değiştir</string>
+    <string name="btn_clear">Temizle</string>
+    <string name="btn_copy">Kopyala</string>
+    <string name="btn_speak">Seslendir</string>
+    <string name="detected_language">Algılanan: %s</string>
+    
+    <!-- Camera Translation -->
+    <string name="camera_permission_required">Kamera izni gerekli</string>
+    <string name="btn_capture">Çek</string>
+    <string name="btn_gallery">Galeri</string>
+    <string name="processing_image">Görüntü işleniyor...</string>
+    
+    <!-- Dialog Translation -->
+    <string name="your_message">Mesajınız</string>
+    <string name="start_conversation">Konuşmaya başlayın</string>
+    <string name="speak">Konuş</string>
+    <string name="stop_speaking">Dur</string>
+    
+    <!-- Settings -->
+    <string name="settings_language">Çeviri Dili</string>
+    <string name="settings_offline_models">Offline Modeller</string>
+    <string name="settings_download_all">Tüm dilleri indir</string>
+    <string name="settings_downloaded">İndirildi</string>
+    <string name="settings_available">Mevcut</string>
+    <string name="settings_downloading">İndiriliyor...</string>
+    <string name="settings_download">İndir</string>
+    <string name="settings_delete">Sil</string>
+    <string name="settings_auto_detect">Otomatik dil algılama</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_dark_mode">Karanlık mod</string>
+    <string name="settings_about">Hakkında</string>
+    <string name="settings_version">Versiyon %s</string>
+    <string name="settings_manage_languages">Dilleri Yönet</string>
+    
+    <!-- Status -->
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+    <string name="status_translating">Çeviriliyor...</string>
+    <string name="error_translation">Çeviri hatası</string>
+    <string name="error_network">Ağ bağlantısı yok</string>
+    <string name="error_download">İndirme hatası</string>
+    <string name="success_copied">Kopyalandı</string>
+    <string name="success_downloaded">İndirildi</string>
+    
+    <!-- Languages -->
+    <string name="lang_auto">Otomatik</string>
+    <string name="lang_turkish">Türkçe</string>
+    <string name="lang_english">İngilizce</string>
+    <string name="lang_german">Almanca</string>
+    <string name="lang_french">Fransızca</string>
+    <string name="lang_spanish">İspanyolca</string>
+    <string name="lang_italian">İtalyanca</string>
+    <string name="lang_russian">Rusça</string>
+    <string name="lang_arabic">Arapça</string>
+    <string name="lang_chinese">Çince</string>
+    <string name="lang_japanese">Japonca</string>
+    <string name="lang_korean">Korece</string>
+    <string name="lang_portuguese">Portekizce</string>
+    <string name="lang_dutch">Felemenkçe</string>
+    <string name="lang_polish">Lehçe</string>
+    <string name="lang_hindi">Hintçe</string>
+    <string name="lang_thai">Tayca</string>
+    <string name="lang_vietnamese">Vietnamca</string>
+    <string name="lang_indonesian">Endonezce</string>
+    <string name="lang_ukrainian">Ukrayna</string>
+    <string name="lang_greek">Yunanca</string>
+    <string name="lang_hebrew">İbranice</string>
+    
+    <!-- Theme -->
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="theme_amoled">AMOLED</string>
+    <string name="theme_system">Sistem</string>
+</resources>
