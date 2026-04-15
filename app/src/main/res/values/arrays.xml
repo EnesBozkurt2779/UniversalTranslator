@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="onboarding_pages">
+        <item>Hoş Geldiniz</item>
+        <item>Çoklu Dil Desteği</item>
+        <item>Offline Çeviri</item>
+        <item>Hazır!</item>
+    </string-array>
+    
+    <array name="onboarding_titles">
+        <item>Evrensel Çevirmen</item>
+        <item>30+ Dil Desteği</item>
+        <item>İnternet Yoksa Bile</item>
+        <item>Başlayalım</item>
+    </array>
+    
+    <array name="onboarding_descriptions">
+        <item>Tüm dillerde ücretsiz ve sınırsız çeviri deneyimi. En yüksek doğruluk oranıyla metinlerinizi, fotoğraflarınızı ve konuşmalarınızı çevirin.</item>
+        <item>Türkçe, İngilizce, Almanca, Fransızca, Japonca, Çince ve daha birçok dil... İstediğiniz dilde çeviri yapın.</item>
+        <item>İnternet bağlantısı olmadan da çeviri yapın. İndirdiğiniz dil modelleriyle offline olarak kullanın.</item>
+        <item>Artık tüm özelliklerin keyfini çıkarabilirsiniz. Hızlı, güvenilir ve ücretsiz!</item>
+    </array>
+</resources>
