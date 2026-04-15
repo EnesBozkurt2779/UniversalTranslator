@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/translateFragment">
+
+    <fragment
+        android:id="@+id/translateFragment"
+        android:name="com.translator.universal.ui.translate.TranslateFragment"
+        android:label="Metin Çeviri" />
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.translator.universal.ui.camera.CameraFragment"
+        android:label="Kamera Çeviri" />
+
+    <fragment
+        android:id="@+id/dialogFragment"
+        android:name="com.translator.universal.ui.dialog.DialogFragment"
+        android:label="Diyalog Çeviri" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.translator.universal.ui.settings.SettingsFragment"
+        android:label="Ayarlar" />
+
+</navigation>
