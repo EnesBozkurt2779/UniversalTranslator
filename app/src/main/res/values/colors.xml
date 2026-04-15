@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#0066FF</color>
+    <color name="primary_dark">#0052CC</color>
+    <color name="primary_light">#3385FF</color>
+    
+    <!-- Primary Dark Theme -->
+    <color name="primary_dark_theme">#4D9AFF</color>
+    <color name="primary_variant_dark">#3385FF</color>
+    <color name="accent_dark_theme">#FF6B4A</color>
+    
+    <!-- Primary AMOLED Theme -->
+    <color name="primary_amoled">#00D4FF</color>
+    <color name="primary_variant_amoled">#00A3CC</color>
+    <color name="accent_amoled">#FF4DFF</color>
+
+    <!-- Accent Colors -->
+    <color name="accent">#FF4D4D</color>
+    <color name="accent_dark">#FF6B4A</color>
+
+    <!-- Background Colors - Light -->
+    <color name="background_light">#F8F9FC</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="card_light">#FFFFFF</color>
+    <color name="stroke_light">#E8ECF4</color>
+
+    <!-- Background Colors - Dark -->
+    <color name="background_dark">#121318</color>
+    <color name="surface_dark">#1C1C24</color>
+    <color name="card_dark">#252530</color>
+    <color name="stroke_dark">#2E2E3A</color>
+
+    <!-- Background Colors - AMOLED -->
+    <color name="background_amoled">#000000</color>
+    <color name="surface_amoled">#0A0A0A</color>
+    <color name="card_amoled">#121212</color>
+    <color name="stroke_amoled">#1E1E1E</color>
+
+    <!-- Text Colors - Light -->
+    <color name="text_primary_light">#1A1A2E</color>
+    <color name="text_secondary_light">#6B7280</color>
+    <color name="text_hint_light">#9CA3AF</color>
+
+    <!-- Text Colors - Dark -->
+    <color name="text_primary_dark">#F5F5F7</color>
+    <color name="text_secondary_dark">#A1A1AA</color>
+    <color name="text_hint_dark">#71717A</color>
+
+    <!-- Text Colors - AMOLED -->
+    <color name="text_primary_amoled">#FFFFFF</color>
+    <color name="text_secondary_amoled">#B0B0B0</color>
+    <color name="text_hint_amoled">#808080</color>
+
+    <!-- Status Colors -->
+    <color name="online_green">#10B981</color>
+    <color name="offline_grey">#6B7280</color>
+    <color name="error_red">#EF4444</color>
+    <color name="warning_orange">#F59E0B</color>
+    <color name="success_green">#22C55E</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#0066FF</color>
+    <color name="gradient_end">#00D4FF</color>
+
+    <!-- Misc -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="ripple_light">#1A0066FF</color>
+    <color name="ripple_dark">#1A00D4FF</color>
+    <color name="chip_background">#1A10B981</color>
+</resources>
