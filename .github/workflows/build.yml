@@ -34,13 +34,20 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gradle-
           
-    - name: Build with Gradle
-      uses: gradle/gradle-build-action@v2
+    - name: Build Debug APK
+      run: |
+        gradle assembleDebug
+        ls -R app/build/outputs/
+
+    - name: Upload APK
+      if: always()
+      uses: actions/upload-artifact@v4
       with:
-        args: assembleDebug
+        name: universal-translator.apk
+        path: app/build/outputs/apk/debug/
       
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
-        name: app-debug.apk
-        path: app/build/outputs/apk/debug/app-debug.apk
+        name: universal-translator.apk
+        path: app/build/outputs/apk/debug/
