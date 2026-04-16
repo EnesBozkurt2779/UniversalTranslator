@@ -26,10 +26,8 @@ jobs:
     - name: Setup Android SDK
       uses: android-actions/setup-android@v2
       
-    - name: Create local.properties
-      run: |
-        echo "sdk.dir=$ANDROID_HOME" > local.properties
-        echo "flutter.sdk=$ANDROID_HOME" >> local.properties
+    - name: Make gradlew executable
+      run: chmod +x gradlew
 
     - name: Build with Gradle
       uses: gradle/gradle-build-action@v2
