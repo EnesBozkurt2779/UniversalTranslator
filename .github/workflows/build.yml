@@ -24,26 +24,16 @@ jobs:
     - name: Setup Android SDK
       uses: android-actions/setup-android@v2
       
-    - name: Cache Gradle packages
-      uses: actions/cache@v3
-      with:
-        path: |
-          ~/.gradle/caches
-          ~/.gradle/wrapper
-        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
-        restore-keys: |
-          ${{ runner.os }}-gradle-
-          
     - name: Build Debug APK
       run: |
         chmod +x gradlew
-        ./gradlew assembleDebug
-        ls -la app/build/outputs/apk/debug/
-      working-directory: Mobil
+        ./gradlew :app:assembleDebug --stacktrace
+        ls -la app/build/outputs/apk/debug/ || echo "APK dir not found"
+        find . -name "*.apk" 2>/dev/null || echo "No APK found"
 
     - name: Upload APK
-      if: always()
+      if: success()
       uses: actions/upload-artifact@v4
       with:
         name: universal-translator.apk
-        path: Mobil/app/build/outputs/apk/debug/app-debug.apk
+        path: app/build/outputs/apk/debug/*.apk
